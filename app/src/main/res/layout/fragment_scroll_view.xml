@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#4dd0e1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#00acc1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#006064"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#009688"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#4caf50"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#1b5e20"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#c0ca33"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#827717"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f44336"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#b71c1c"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#ff5252"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
