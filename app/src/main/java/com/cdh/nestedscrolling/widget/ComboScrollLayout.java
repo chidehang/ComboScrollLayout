@@ -102,7 +102,7 @@ public class ComboScrollLayout extends LinearLayout implements NestedScrollingPa
         topView.stopNestedScroll();
 
         boolean handled = (axes & ViewCompat.SCROLL_AXIS_VERTICAL) != 0;
-        // 若为垂直滚动方向，且topView未完全可见，应由StickyScrollLayout处理滑动，禁用SwipeRefreshLayout。
+        // 若为垂直滚动方向，且topView未完全可见，应由ComboScrollLayout处理滑动，禁用SwipeRefreshLayout。
         if (handled && refreshLayout != null && getScrollY() != 0) {
             refreshLayout.setEnabled(false);
         }
