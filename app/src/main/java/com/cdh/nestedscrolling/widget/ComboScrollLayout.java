@@ -157,7 +157,7 @@ public class ComboScrollLayout extends LinearLayout implements NestedScrollingPa
 
     @Override
     public void scrollTo(int x, int y) {
-        // 将StickyScrollLayout自身的滚动范围限制在0～topHeight（即在topview完全可见至完全不可见的范围内滑动）
+        // 将ComboScrollLayout自身的滚动范围限制在0～topHeight（即在topview完全可见至完全不可见的范围内滑动）
         if (y < 0) {
             y = 0;
         }
