@@ -143,9 +143,9 @@ public class ComboChildLayout extends LinearLayout implements NestedScrollingChi
                 int consumedY = 0;
                 // 自身或child处理滑动偏移
                 if (orientation == VERTICAL) {
-                    consumedY = childConsumedY(consumedY);
+                    consumedY = childConsumedY(dy);
                 } else {
-                    consumedX = childConsumedX(consumedX);
+                    consumedX = childConsumedX(dx);
                 }
 
                 // 滑动偏移量减去自身或child消耗的量，然后再交由parent处理
