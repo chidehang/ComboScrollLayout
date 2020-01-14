@@ -115,6 +115,10 @@ public class ComboChildLayout extends LinearLayout implements NestedScrollingChi
 
         switch (event.getActionMasked()) {
             case MotionEvent.ACTION_DOWN:
+                consumed[0] = 0;
+                consumed[1] = 0;
+                offset[0] = 0;
+                offset[1] = 0;
                 lastX = (int) event.getX();
                 lastY = (int) event.getY();
                 // 通知parent根据滑动方向和滑动类型进行启用嵌套滑动
